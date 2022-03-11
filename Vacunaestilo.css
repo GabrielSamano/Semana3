@@ -1,0 +1,79 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.cover{
+    height: 600px;
+    background-image: url("./assets/Vacuna.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.coverS{
+  height: 300px;
+  background-image: url("./assets/TiposVacuna.jpg");
+  color: black;
+  background-size: cover;
+  background-position: center;
+  
+}
+.coverD{
+  height: 600px;
+  background-image: url("./assets/Fondo3.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+.texto{
+  color: black;
+  text-align: justify;
+}
+.tran{
+  opacity: 0.5;
+}
+.coverL{
+  height: 600px;
+  background-image: url("./assets/Fondo4.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+.coverf{
+  height: 800px;
+  background-image: url("./assets/Contacto.png");
+  color: white;
+  background-size: cover;
+  background-position: cover;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+.cont{
+  background-color: darkgray;
+
+}
+.feli{
+  height: 300px;
+  background-image: url("./assets/TiposVacuna.jpg");
+  background-size: cover;
+  background-position: cover;
+  color: black;
+}
+.abot{
+  text-align: left;
+}
+.lol{
+  text-align: center;
+
+}
+.hil{
+  text-align: right;
+}

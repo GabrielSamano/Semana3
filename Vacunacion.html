@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Vacunaestilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Vacunacion</a>
+
+            <ul class="nav">
+            <li class="nav-item activate">
+                <a class="nav-link" href="#">Database</a>
+            </li>
+            <li class="nav-item activate">
+                <a class="nav-link" href="#">Education</a>
+            </li>
+            <li class="nav-item activate">
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item activate">
+                <a class="nav-link" href="#">Regulation</a>
+            </li>
+            </ul>
+
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+                Combate el Virus con las Vacunas 
+            </h1>
+            <p>
+                Detengamos esta pandemia matando el virus con una vacuna, no te dejes contagiar tu y tu familia
+            </p>
+            <button class="btn btn-primary">
+                Conoce más
+            </button>
+            <br>
+            <h2>Agenda tu Vacuna</h2>
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Type of Vaccine</th>
+                </tr>
+                <tr>
+                    <td><input list="Lugar">
+                        <datalist id="Lugar">
+                            <option value="Ciudad de Mexico">
+                            <option value="Estado de Mexico">
+                            <option value="Guadalajara">
+                            <option value="Monterrey">
+                        </datalist>
+                    </td>
+                    <td>
+                        <input type="datetime-local" id="fecha2" name="fecha2">
+                    </td>
+                    <td><input list="TipodeVacuna">
+                        <datalist id="TipodeVacuna">
+                            <option value="AstraZeneca">
+                            <option value="Sinovac">
+                            <option value="Pfizer">
+                            <option value="Moderna">
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+            <button class="btn btn-primary">
+                Enviar
+            </button>
+        </div>
+    </header>
+    <div class="coverS d-flex justify-content-center align-items-center flex-column">
+        
+    </div>
+    <div class="coverD d-flex justify-content-left align-items-left flex-column">
+        <h1> ¿Porque debo vacunarme? </h1>
+        <p>Para evitar cualquier duda sobre vacunarse contra el Covid-19, 
+        identifique los siguientes 4 beneficios de la Vacunación contra el Covid-19.</p>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card tran" style="width: 14rem">
+                        <div class="card-body">
+                            <h5 class="card-title texto">1-Minimizar la propagación de virus</h5>
+                            <p class="card-text texto">Se ha demostrado que la vacuna es efectiva para evitar que alguien se infecte con coronavirus.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card tran" style="width: 14rem">
+                        <div class="card-body">
+                            <h5 class="card-title texto">2-Formando anticuerpos</h5>
+                            <p class="card-text texto">Se ha demostrado que la vacuna contra el covid-19 ayuda a dar forma a la respuesta de anticuerpos del sistema inmunitario.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card tran" style="width: 14rem">
+                        <div class="card-body">
+                            <h5 class="card-title texto">3-Proteger a las personas cercanas</h5>
+                            <p class="card-text texto">Los beneficios de la vacunación contra el Covid-19 son que pueden ayudar a proteger a las personas que nos rodean</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card tran" style="width: 14rem">
+                        <div class="card-body">
+                            <h5 class="card-title texto">4-Crear inmunidad de grupo</h5>
+                            <p class="card-text texto">La vacunación contra el covid-19 también es beneficiosa para crear inmunidad grupal o de rebaño.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+    <div class="coverL d-flex justify-content-right align-items-right flex-column">
+        <h1>Preparativos antes de la Vacuna</h1>
+        <p>El éxito de las vacunas está fuertemente influenciado por la fortaleza del sistema inmunológico del cuerpo.</p>
+        <p>Por lo tanto, hay varias cosas que se pueden intentar para que la vacuna covid-19 funcione.</p>
+        <div class="container mt-5">
+            <div class="col">
+                <div class="card tran border-primary" style="width: 22rem">
+                    <div class="card-body">
+                        <h5 class="card-title texto">Evitar las bebidas alcohólicas</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card tran border-primary" style="width: 22rem">
+                    <div class="card-body">
+                        <h5 class="card-title texto">Evitar el estrés</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card tran border-primary" style="width: 22rem">
+                    <div class="card-body">
+                        <h5 class="card-title texto">Comer comida sana</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card tran border-primary" style="width: 22rem">
+                    <div class="card-body">
+                        <h5 class="card-title texto">Dormir lo suficiente</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card tran border-primary" style="width: 22rem">
+                    <div class="card-body">
+                        <h5 class="card-title texto">Ejercicio o actividad física</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="coverf d-flex justify-content align-items-right flex-column">
+        <h3>Contactos de Emergencia</h3>
+        <div class="row">
+            <div class="container mt-5">
+              <div class="card" style="width: 14rem;">
+                <div class="card-body tran texto cont">
+                  <h5 class="card-title">Call</h5>
+                  <p class="card-text">555555555</p>
+                  <a href="#" class="btn btn-primary">Call Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="container mt-5">
+                  <div class="card" style="width: 14rem;">
+                    <div class="card-body tran texto cont">
+                      <h5 class="card-title">Chat</h5>
+                      <p class="card-text">55.1.5555555</p>
+                      <a href="#" class="btn btn-primary">Chat Now</a>
+                    </div>
+                  </div>
+                </div>
+          <div class="row">
+                    <div class="container mt-5">
+                      <div class="card" style="width: 14rem;">
+                        <div class="card-body tran texto cont">
+                          <h5 class="card-title">Message</h5>
+                          <p class="card-text">5.021.355</p>
+                          <a href="#" class="btn btn-primary">Message Now</a>
+                        </div>
+                      </div>
+          </div>
+          <p>Vacunación</p>
+          <p>Nuestro objetivo es hacer</p> 
+          <p>consciencia en la gente para que se vacune</p>
+    </div>
+
+</body>
+</html>
